@@ -6,8 +6,14 @@ Based on the first solution of this [article](https://linux.thai.net/~thep/tsort
 Basically this is an js implement of the c code
 
 
-## Get started
+## Demo
+[demo](https://matrixyf.github.io/thai_alphabet_sort/)
 
-```bash
-$ yarn start
+## Install
+```
+npm install thai-alphabet-sort
+```
+or
+```
+yarn add thai-alphabet-sort
 ```
