@@ -9,4 +9,6 @@ export default defineConfig({
   ],
   fastRefresh: {},
   antd: {},
+  base: '/thai_alphabet_sort',
+  publicPath: '/thai_alphabet_sort/',
 });
