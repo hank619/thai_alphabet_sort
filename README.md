@@ -1,14 +1,12 @@
-# umi project
+# Comparator for thai word base on thai alpahbet order
 
-## Getting Started
+## How it works
 
-Install dependencies,
+Based on the first solution of this [article](https://linux.thai.net/~thep/tsort.html)   
+Basically this is an js implement of the c code
 
-```bash
-$ yarn
-```
 
-Start the dev server,
+## Get started
 
 ```bash
 $ yarn start
