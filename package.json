@@ -1,6 +1,6 @@
 {
   "name": "thai-alphabet-sort",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Comparator for thai word base on thai alpahbet order",
   "keywords": [
     "thai",
