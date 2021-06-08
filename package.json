@@ -1,5 +1,9 @@
 {
-  "private": true,
+  "name": "thai-alphabet-sort",
+  "verison": "0.0.1",
+  "description": "Comparator for thai word base on thai alpahbet order",
+  "keywords": ["thai", "alphabet", "sort"],
+  "main": "/pages/tstrcmp.ts",
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
