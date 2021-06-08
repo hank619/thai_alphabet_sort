@@ -1,10 +1,16 @@
 {
   "name": "thai-alphabet-sort",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Comparator for thai word base on thai alpahbet order",
-  "keywords": ["thai", "alphabet", "sort"],
+  "keywords": [
+    "thai",
+    "alphabet",
+    "sort"
+  ],
   "main": "/src/pages/tstrcmp.ts",
-  "files": ["/src/pages/tstcmp.ts"],
+  "files": [
+    "/src/pages/tstcmp.ts"
+  ],
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
