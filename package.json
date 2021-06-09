@@ -1,6 +1,6 @@
 {
   "name": "thai-alphabet-sort",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Comparator for thai word base on thai alpahbet order",
   "keywords": [
     "thai",
@@ -33,8 +33,7 @@
       "prettier --parser=typescript --write"
     ]
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@ant-design/pro-layout": "^6.5.0",
     "@umijs/preset-react": "1.x",
