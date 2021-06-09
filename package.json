@@ -7,9 +7,10 @@
     "alphabet",
     "sort"
   ],
-  "main": "/src/pages/tstrcmp.ts",
+  "main": "lib/tstrcmp.ts",
+  "types": "lib/tstrcmp.d.ts",
   "files": [
-    "/src/pages/tstcmp.ts"
+    "lib/**/*"
   ],
   "scripts": {
     "start": "umi dev",
@@ -18,7 +19,8 @@
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "build-npm": "tsc"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"

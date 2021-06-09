@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./lib",
+    "typeRoots": ["./typings"],
     "moduleResolution": "node",
     "importHelpers": true,
     "jsx": "react-jsx",
@@ -9,6 +11,8 @@
     "sourceMap": true,
     "baseUrl": "./",
     "strict": true,
+    "lib": ["es6"],
+    "declaration": true,
     "paths": {
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"]
@@ -16,11 +20,7 @@
     "allowSyntheticDefaultImports": true
   },
   "include": [
-    "mock/**/*",
-    "src/**/*",
-    "config/**/*",
-    ".umirc.ts",
-    "typings.d.ts"
+    "src/pages/tstrcmp.ts"
   ],
   "exclude": [
     "node_modules",
