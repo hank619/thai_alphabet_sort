@@ -7,7 +7,7 @@
     "alphabet",
     "sort"
   ],
-  "main": "lib/tstrcmp.ts",
+  "main": "lib/tstrcmp.js",
   "types": "lib/tstrcmp.d.ts",
   "files": [
     "lib/**/*"
